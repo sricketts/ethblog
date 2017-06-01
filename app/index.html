@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Status</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <script src="./app.js"></script>
+</head>
+<body>
+  <h1>Status</h1>
+  <h2>What is everyone up to?</h2>
+  <h3>You are <span class="black"><span id="status"></span></span></h3>
+
+  <br>
+  <h1>Set Status</h1>
+  <br><label for="amount">New Status:</label><input type="text" id="new_status" placeholder="e.g., out to eat"></input>
+  <br><br><button id="set" onclick="App.setStatus()">Set New Status</button>
+  <br><br>
+  <span id="app_status"></span>
+</body>
+</html>
